@@ -1,0 +1,109 @@
+Got it 👍 — your **12-month AWS free tier is over**, so now only the **“Always Free” services** remain.
+
+Here’s exactly what you can still use **for free forever (with limits)** 👇
+
+---
+
+# 🟢 AWS Always Free Services (after 12 months)
+
+## ⚙️ Compute / Backend
+
+* **AWS Lambda**
+  → 1 million requests/month
+  → 400,000 GB-seconds compute time
+  ✅ Best for APIs, bots, backend
+
+---
+
+## 🗄️ Database
+
+* **Amazon DynamoDB**
+  → 25 GB storage
+  → 25 write + 25 read capacity units
+  ✅ Good for small apps, user data
+
+---
+
+## 📦 Storage
+
+* **Amazon S3**
+  → 5 GB storage
+  → limited requests/month
+  ✅ Use for images, static sites
+
+---
+
+## 📡 Messaging / Queue
+
+* **Amazon SQS**
+  → 1 million requests/month
+
+* **Amazon SNS**
+  → 1 million publishes
+
+---
+
+## 📊 Monitoring
+
+* **Amazon CloudWatch**
+  → basic logs + metrics free
+
+---
+
+## 🔐 Security & Identity
+
+* **AWS IAM**
+  → completely free
+
+---
+
+## 🌐 API Management
+
+* **Amazon API Gateway**
+  → 1 million API calls/month
+
+---
+
+# ❌ What is NOT free anymore
+
+These now cost money ❗
+
+* EC2 (servers)
+* RDS (MySQL/Postgres DB)
+* Elastic IPs
+* Load Balancers
+
+---
+
+# 💡 Best Free Stack (after 12 months)
+
+You can still build full app FREE:
+
+* Frontend → **S3**
+* Backend → **Lambda + API Gateway**
+* Database → **DynamoDB**
+
+👉 This is called **serverless architecture**
+👉 Very powerful + stays in free tier if usage is low
+
+---
+
+# ⚠️ Important Tips
+
+* Always monitor usage in **CloudWatch**
+* Set **billing alert (₹100 or less)**
+* Avoid EC2 unless needed
+
+---
+
+# 🔥 Simple Truth
+
+👉 AWS is still usable for free
+👉 But only if you use **serverless services**
+
+---
+
+If you want, I can:
+✅ Show you how to deploy your React app FREE on AWS
+✅ Or suggest **better free alternatives (like Oracle Cloud)** which give free VM also 😄
+

@@ -1,0 +1,5 @@
+matrix 
+
+row = index / number_of_columns
+
+column = index % number_of_columns

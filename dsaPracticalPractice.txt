@@ -1,0 +1,151 @@
+Here are some simple DSA practical exam questions suitable for BCA students using Java.
+
+# Simple DSA Practical Exam Test
+
+## 1. Array Program
+
+Write a Java program to:
+
+* Take 5 integers from the user
+* Store them in an array
+* Find:
+
+  * Largest number
+  * Smallest number
+  * Sum of all elements
+
+---
+
+## 2. Linear Search
+
+Write a program to search an element in an array using **Linear Search**.
+
+### Example
+
+Input:
+
+```text
+Array: 10 20 30 40 50
+Search: 30
+```
+
+Output:
+
+```text
+Element found at position 3
+```
+
+---
+
+## 3. Binary Search
+
+Write a Java program to perform **Binary Search** on a sorted array.
+
+---
+
+## 4. Stack Using Array
+
+Create a menu-driven program for Stack operations:
+
+* Push
+* Pop
+* Display
+
+Use array implementation.
+
+---
+
+## 5. Queue Using Array
+
+Write a Java program to implement Queue with:
+
+* Insert
+* Delete
+* Display
+
+---
+
+## 6. Linked List
+
+Create a singly linked list and perform:
+
+* Insert at beginning
+* Insert at end
+* Display nodes
+
+---
+
+## 7. Bubble Sort
+
+Write a program to sort array elements using **Bubble Sort**.
+
+### Example
+
+Input:
+
+```text
+5 2 8 1 3
+```
+
+Output:
+
+```text
+1 2 3 5 8
+```
+
+---
+
+## 8. Selection Sort
+
+Write a Java program for **Selection Sort**.
+
+---
+
+## 9. String Operations
+
+Write a Java program to:
+
+* Reverse a string
+* Check palindrome
+
+---
+
+## 10. Recursion
+
+Write a recursive function to find:
+
+* Factorial of a number
+* Fibonacci series
+
+---
+
+# Viva Questions
+
+1. What is DSA?
+2. Difference between Stack and Queue?
+3. What is recursion?
+4. Difference between Linear Search and Binary Search?
+5. What is time complexity?
+6. Why Binary Search requires sorted array?
+7. What is Linked List?
+8. Difference between Array and Linked List?
+
+---
+
+# Simple Lab Test Pattern
+
+| Question        | Marks |
+| --------------- | ----- |
+| Program Writing | 10    |
+| Output          | 5     |
+| Viva            | 5     |
+| Total           | 20    |
+
+If you want, I can also give:
+
+* Easy Java solutions
+* Important viva answers
+* Mini practical programs
+* Frequently asked DSA exam programs
+* One full mock practical paper
+

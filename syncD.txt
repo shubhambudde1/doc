@@ -1,0 +1,2 @@
+rsync -av --delete /media/shubham/Data/D /media/shubham/Data/github-backup
+

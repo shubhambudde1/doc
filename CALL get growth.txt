@@ -1,0 +1,17 @@
+
+
+BEGIN;
+CALL get_growth_dynamic('2024-10-01', '2024-11-01', 10, 'positive');
+FETCH ALL FROM growth_result;
+COMMIT;
+
+BEGIN;
+CALL get_growth_dynamic('2024-10-01', '2024-11-01', 50, 'negative');
+FETCH ALL FROM growth_result;
+COMMIT;
+
+BEGIN;
+CALL get_growth_dynamic('2024-10-01', '2024-11-01', 50, 'both');
+FETCH ALL FROM growth_result;
+COMMIT;
+

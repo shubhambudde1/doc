@@ -1,0 +1,101 @@
+Perfect — this output tells us exactly what’s wrong 👍
+
+---
+
+## 🔍 Your WiFi status (based on output)
+
+* ✅ WiFi hardware detected → **Broadcom BCM43228**
+* ❌ But current driver = `bcma-pci-bridge` (WRONG driver)
+* ❌ No proper WiFi driver (`wl`) loaded → **WiFi not working**
+
+👉 That’s why you don’t see WiFi networks.
+
+---
+
+## 🚀 Fix (IMPORTANT — follow exactly)
+
+### 1️⃣ Remove wrong drivers
+
+```bash
+sudo apt purge bcmwl-kernel-source broadcom-sta-dkms
+sudo apt purge firmware-b43-installer b43-fwcutter
+```
+
+---
+
+### 2️⃣ Install correct Broadcom driver
+
+```bash
+sudo apt update
+sudo apt install bcmwl-kernel-source
+```
+
+---
+
+### 3️⃣ Disable conflicting drivers
+
+```bash
+sudo modprobe -r b43 bcma brcmsmac ssb
+```
+
+---
+
+### 4️⃣ Load correct driver
+
+```bash
+sudo modprobe wl
+```
+
+---
+
+### 5️⃣ Reboot
+
+```bash
+sudo reboot
+```
+
+---
+
+## 📶 After reboot, test:
+
+```bash
+nmcli device wifi list
+```
+
+👉 If networks show → 🎉 WiFi fixed
+
+---
+
+## 🔥 If still not working
+
+Run this and send me output:
+
+```bash
+rfkill list
+ip a
+```
+
+---
+
+## 🧠 What happened (simple)
+
+Your system is using:
+
+* ❌ `bcma-pci-bridge` → just a bridge, NOT WiFi driver
+  You need:
+* ✅ `wl` → actual Broadcom WiFi driver
+
+---
+
+## 👍 Expected final result
+
+After fix, `lshw -C network` should show:
+
+```bash
+configuration: driver=wl
+```
+
+---
+
+If you want, I can also give you **offline install method (USB)** in case internet stops after removing drivers.
+

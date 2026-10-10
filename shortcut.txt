@@ -1,0 +1,52 @@
+` ctrl + Alt+ t `            =    Open Terminal
+
+` Super (Windows key) + A `  =  Show application
+
+` Alt + tab `                =  Switch between open application
+
+` Ctrl + shift+ N `          =  Create a new folder
+
+` Ctrl + Alt + L `           = Lock screen
+
+` Window + D `               = Show Desktop
+
+terminal command
+
+` Ctrl + C `                = Cancel current command
+
+` Ctrl + L `                = Clear terminal screen
+
+` Ctrl + Shift + T `        =  Open a new terminal tab
+
+` Ctrl + R `                = Reverse search through command history
+
+` Tab `                     = Auto- Complete commands and file name
+
+psql
+\\c dbname to switch to a different database.
+\\l to list all available databases.
+\\dt to display all tables in the current database.
+\\d table_name to describe the structure of a specific table, including columns, data types, and constraints.
+\\d+ table_name to provide a more detailed description of a table, including storage information and access privileges.
+\\dn to list all schemas in the current database.
+\\du to list all database roles (users) and their attributes.
+\\df to list all available functions in the current database.
+\\dv to list all views in the current database.
+\\q to exit the psql session.
+
+
+# Git shortcuts
+alias gs='git status'
+alias ga='git add .'
+alias gc='git commit -m'
+alias gac='git add . && git commit -m'
+alias gp='git push'
+alias gl='git pull'
+alias gb='git branch'
+alias gco='git checkout'
+alias gsw='git switch'
+alias glg='git log --oneline --graph --all'
+
+# Safety
+alias gundo='git reset --soft HEAD~1'
+

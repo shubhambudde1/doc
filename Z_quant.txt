@@ -1,0 +1,109 @@
+**Z-Score** is a statistical value that tells **how far a value is from the average (mean)** in terms of **standard deviations**.
+
+Your code:
+
+```python
+data['zscore'] = ((data['Close'] - data['ma']) / data['std']).fillna(0)
+```
+
+### ✅ Formula of Z-Score
+
+[
+Z = \frac{X - \mu}{\sigma}
+]
+
+Where:
+
+* **X** → Current value (`Close` price)
+* **μ (mu)** → Mean / Average (`ma` = moving average)
+* **σ (sigma)** → Standard deviation (`std`)
+
+---
+
+## ✅ Meaning in Stock Market Context
+
+Here:
+
+```python
+Close = current stock price
+ma    = moving average price
+std   = price volatility
+```
+
+So Z-score tells:
+
+👉 **How much current price deviates from normal price behavior**
+
+---
+
+## 📊 Interpretation
+
+| Z-Score | Meaning                               |
+| ------- | ------------------------------------- |
+| 0       | Price = average                       |
+| +1      | Price 1 std above average             |
+| +2      | Price very high (possibly overbought) |
+| -1      | Price below average                   |
+| -2      | Price very low (possibly oversold)    |
+
+---
+
+## ✅ Example
+
+Suppose:
+
+```
+Close price = 110
+Moving Avg  = 100
+Std Dev     = 5
+```
+
+```
+Z = (110 - 100) / 5
+Z = 2
+```
+
+➡ Price is **2 standard deviations above average**
+➡ Stock may be **overvalued / mean reversion possible**
+
+---
+
+## ✅ Why Traders Use Z-Score
+
+Common uses:
+
+* Mean reversion strategies
+* Detect overbought / oversold zones
+* Statistical arbitrage
+* Trading signals
+
+Example rule:
+
+```python
+if zscore > 2:
+    SELL
+elif zscore < -2:
+    BUY
+```
+
+---
+
+## ✅ Why `.fillna(0)`?
+
+At the beginning:
+
+* Moving average or std may be `NaN`
+* Division gives `NaN`
+
+So:
+
+```python
+.fillna(0)
+```
+
+replaces missing values with **neutral score (0)**.
+
+---
+
+If you want, I can show you **how hedge funds use Z-score for trading signals** or how to add it to your **stock prediction bot**.
+

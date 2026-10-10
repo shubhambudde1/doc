@@ -1,0 +1,69 @@
+Formula
+
+20-day average volume
+
+You can calculate:
+Volume Ratio = Average Volume/Today’s Volume
+
+Interpretation
+Ratio	        Meaning
+Less than 0.7	Low
+0.7 – 1.3	Medium
+More than 1.5	High
+More than 2	Very High
+
+
+
+
+The dream of a strategy that "always" guarantees profit is a common one, but in the world of trading, there is no such thing as a 100% win rate. Even the most successful traders in the Indian market lose on 30% to 50% of their trades.
+
+The "secret" isn't finding a perfect strategy, but finding one with a **high probability** and using **strict risk management** so that your wins are much larger than your losses.
+
+Here is a highly effective, rule-based swing trading framework tailored for the Indian market (Nifty 50 and Midcap stocks).
+
+---
+
+## The "50-EMA Trend Pullback" Strategy
+This strategy focuses on buying strong stocks when they briefly "dip" or pull back to their average price during an uptrend.
+
+### 1. The Setup (Requirements)
+* **Timeframe:** Daily Chart (each candle represents one day).
+* **Indicator 1:** **50-period Exponential Moving Average (EMA)**. This acts as your "trend filter."
+* **Indicator 2:** **Relative Strength Index (RSI)**. Set to 14 periods.
+* **Indicator 3:** **Volume**. Look for spikes during price moves.
+
+### 2. Entry Rules
+1.  **Trend Check:** The stock price must be trading **above** the 50-EMA. The 50-EMA line should be sloping upwards.
+2.  **The Pullback:** Wait for the price to drop and touch (or come very close to) the **50-EMA** line.
+3.  **The Reversal Signal:** Look for a bullish candlestick (like a Hammer or Bullish Engulfing) at the 50-EMA.
+4.  **Confirmation:** The RSI should be between **40 and 50** (indicating a healthy pullback, not a total crash) and then start turning up.
+
+
+
+### 3. Exit Rules (Stop Loss & Target)
+* **Stop Loss (SL):** Place your SL just below the recent "swing low" or slightly below the 50-EMA line.
+* **Target (Profit):** Aim for a **1:2 Risk-to-Reward ratio**. If you are risking ₹5 per share, your target should be ₹10 per share.
+
+---
+
+## The "Real" Secret: Position Sizing
+If you want to stay profitable over time, you must never risk too much on a single trade. In India, volatility can be high due to global cues, so use this formula to calculate how many shares to buy:
+
+$$Position Size = \frac{Total Capital \times Risk \%}{Entry Price - Stop Loss Price}$$
+
+> **Example:** If you have ₹1,00,000 and want to risk 1% (₹1,000) on a trade where the entry is ₹500 and SL is ₹480:
+> $$\frac{1,000}{500 - 480} = 50 \text{ shares}$$
+
+---
+
+## Critical Tips for the Indian Market
+* **Stick to Liquid Stocks:** Only trade stocks in the **Nifty 200** or **Nifty Midcap 100**. Avoid "penny stocks" as they can hit lower circuits, preventing you from selling.
+* **Check the Market Mood:** If the Nifty 50 index is crashing, most individual stocks will fall regardless of your strategy. Only go "Long" (Buy) when the Nifty is stable or bullish.
+* **Avoid Results Season:** Don't enter a swing trade 2-3 days before a company announces its quarterly results, as the price can gap up or down unpredictably.
+
+[Swing trading for beginners | LEARN POWERFUL Strategy](https://www.youtube.com/watch?v=wkuQAbLZnUw)
+
+This tutorial by Siddharth Bhanushali breaks down a proven swing trading strategy specifically for the Indian market, covering everything from stock selection to exact entry and exit points.
+
+
+http://googleusercontent.com/youtube_content/0

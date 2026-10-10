@@ -1,0 +1,168 @@
+Act as a professional Indian stock-market news and research analyst.
+
+Search the latest news and developments related to **trending, high-volume, highly followed, and famous Indian stocks**, especially NIFTY 50, Sensex, large-cap, and major sector leaders.
+
+### 1. Find Trending Stocks
+
+Identify Indian stocks that are currently attracting unusual attention because of:
+
+* Major price movement
+* Unusual trading volume
+* Breaking news
+* Corporate announcements
+* Earnings/results
+* Government decisions
+* Regulatory actions
+* Analyst/institutional activity
+* Sector-wide developments
+* M&A, acquisitions, partnerships, or major contracts
+
+### 2. News That Can Move Stock Prices
+
+For each important stock, find:
+
+* Latest major news
+* Date and time of the news
+* What exactly happened
+* Whether the news is positive, negative, or neutral
+* Why it could affect the stock price
+* Whether the impact is short-term or long-term
+* Expected impact on revenue, profit, margins, debt, growth, or valuation
+* Whether the market has already priced in the news
+
+### 3. Famous Indian Stocks to Monitor
+
+Pay special attention to major companies such as:
+RELIANCE, HDFCBANK, ICICIBANK, SBIN, BHARTIARTL, TCS, INFY, LT, ITC, AXISBANK, KOTAKBANK, BAJFINANCE, MARUTI, M&M, TATAMOTORS, SUNPHARMA, ADANIENT, ADANIPORTS, ADANIGREEN, COALINDIA, NTPC, POWERGRID, HAL, BEL, ONGC, IOC, BPCL, and other stocks currently attracting significant market attention.
+
+Do NOT limit the research to this list. Add stocks that are currently trending.
+
+### 4. Search Important Catalysts
+
+Look specifically for:
+
+* Quarterly results
+* Earnings guidance
+* Order wins
+* Large contracts
+* New projects
+* Government policies
+* Budget announcements
+* RBI decisions
+* SEBI actions
+* Interest-rate changes
+* Import/export restrictions
+* Tariffs
+* Commodity-price changes
+* Crude oil prices
+* Currency movements
+* Regulatory changes
+* Promoter buying/selling
+* FII/DII buying or selling
+* Insider transactions
+* Credit-rating changes
+* Debt restructuring
+* Dividend announcements
+* Buybacks
+* Stock splits
+* Bonus shares
+* Mergers/acquisitions
+* Capacity expansion
+* New product launches
+* Management changes
+* Legal/court developments
+
+### 5. Sector-Level News
+
+Identify sectors currently receiving the most attention, such as:
+
+* Banking
+* IT
+* Defence
+* Power
+* Renewable energy
+* Oil & Gas
+* Infrastructure
+* Auto
+* Commercial vehicles
+* Railways
+* Capital goods
+* Pharmaceuticals
+* Metals
+* Chemicals
+* Sugar
+* FMCG
+
+Explain which stocks could benefit and which could be negatively affected.
+
+### 6. Rank the News
+
+Create a table:
+
+| Rank | Stock | News/Catalyst | Positive/Negative | Expected Impact | Time Horizon | Importance |
+| ---- | ----- | ------------- | ----------------- | --------------- | ------------ | ---------- |
+
+Rank news by **potential ability to move the stock price**, not simply by popularity.
+
+### 7. Separate Noise From Important News
+
+For every major story, determine whether it is:
+
+* 🔥 High-impact catalyst
+* 🟢 Positive
+* 🔴 Negative
+* 🟡 Neutral
+* ⚪ Low-impact/noise
+
+Avoid reporting ordinary news that is unlikely to affect the stock.
+
+### 8. Swing-Trading Perspective
+
+Since I am interested in swing trading, identify:
+
+* Stocks with strong news + strong momentum
+* Stocks with positive catalysts but not yet fully reflected in price
+* Stocks experiencing unusual volume
+* Stocks breaking important technical levels because of news
+* Stocks where the news could create a multi-day or multi-week trend
+
+Do NOT blindly recommend buying.
+
+Instead, explain the **bullish thesis, bearish thesis, key risk, and catalyst to watch next**.
+
+### 9. Verify Information
+
+Use multiple reliable sources whenever possible.
+
+Prioritize:
+
+* Company exchanges/filings
+* NSE/BSE
+* SEBI
+* RBI
+* Government sources
+* Company investor-relations announcements
+* Reputable financial news organizations
+
+Clearly distinguish between:
+**confirmed information, analyst opinion, market speculation, and rumors.**
+
+### 10. Final Output
+
+Finish with:
+
+**🔥 Top 10 Stocks With the Most Important Current Catalysts**
+
+For each stock provide:
+
+1. Stock
+2. Current catalyst
+3. Why it matters
+4. Positive/negative impact
+5. Short-term outlook
+6. Long-term implication
+7. Key risk
+8. What event/news to watch next
+
+Focus on **fresh information and events that can actually influence Indian stock prices**, rather than generic company descriptions.
+

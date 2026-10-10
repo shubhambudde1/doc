@@ -1,0 +1,39 @@
+Here's a polished self-introduction based on your profile:
+
+---
+
+**Self Introduction**
+
+Hello, my name is **Budde Shubham Suresh**. I am currently pursuing a **Masters  of Computer Applications (MCA)** from **D. Y. Patil College**. My primary domain is **Full Stack Development**, with expertise in both frontend and backend technologies.
+
+On the frontend side, I work with **React.js** to build responsive and user-friendly web applications. For backend development, I use **Spring Boot**, along with Java and RESTful APIs to create scalable and secure applications.
+
+I have completed internships, including working as a **Full Stack Developer at Numetry Technologies**, where I gained practical experience in developing and maintaining web applications.
+
+My technical skill set includes:
+
+* Java
+* Spring Boot
+* React.js
+* MySQL
+* REST APIs
+* AWS Cloud Services
+* Docker
+* Git & GitHub
+* GitHub Actions (CI/CD)
+* Flask
+* HTML, CSS, JavaScript
+
+I have developed several projects that strengthened my development skills, including:
+
+* **Stock Analysis Application** – A comprehensive platform built using **React.js, Spring Boot, and Flask**, featuring stock tracking, portfolio management, analytics, and automated trading insights.
+* **Dropbox Clone** – A cloud-based file storage and sharing application.
+* **E-Commerce Platform** – A full-stack online shopping application with product management and order processing features.
+* **Java Swing Applications** – Desktop applications developed using Java Swing for various use cases.
+
+I am passionate about software development, problem-solving, and continuously learning new technologies. My goal is to build scalable applications and contribute to innovative software solutions while growing as a Full Stack Developer.
+
+---
+
+This version is suitable for **interviews, placements, internships, and professional introductions** and can be delivered in about **1–2 minutes**.
+

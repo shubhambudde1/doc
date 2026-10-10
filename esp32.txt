@@ -1,0 +1,87 @@
+#include "BluetoothSerial.h"
+
+BluetoothSerial SerialBT;
+
+// Motor Pins
+#define IN1 18
+#define IN2 19
+#define IN3 21
+#define IN4 22
+#define ENA 5
+#define ENB 23
+
+// PWM Settings
+const int freq = 30000;
+const int resolution = 8;
+
+int speedValue = 180;
+
+void setup() {
+  Serial.begin(115200);
+  SerialBT.begin("ESP32_CAR");
+
+  pinMode(IN1, OUTPUT);
+  pinMode(IN2, OUTPUT);
+  pinMode(IN3, OUTPUT);
+  pinMode(IN4, OUTPUT);
+
+  // ESP32 Core 3.x PWM
+  ledcAttach(ENA, freq, resolution);
+  ledcAttach(ENB, freq, resolution);
+
+  ledcWrite(ENA, speedValue);
+  ledcWrite(ENB, speedValue);
+}
+
+void forward() {
+  digitalWrite(IN1, HIGH);
+  digitalWrite(IN2, LOW);
+  digitalWrite(IN3, HIGH);
+  digitalWrite(IN4, LOW);
+}
+
+void backward() {
+  digitalWrite(IN1, LOW);
+  digitalWrite(IN2, HIGH);
+  digitalWrite(IN3, LOW);
+  digitalWrite(IN4, HIGH);
+}
+
+void left() {
+  digitalWrite(IN1, LOW);
+  digitalWrite(IN2, HIGH);
+  digitalWrite(IN3, HIGH);
+  digitalWrite(IN4, LOW);
+}
+
+void right() {
+  digitalWrite(IN1, HIGH);
+  digitalWrite(IN2, LOW);
+  digitalWrite(IN3, LOW);
+  digitalWrite(IN4, HIGH);
+}
+
+void stopMotor() {
+  digitalWrite(IN1, LOW);
+  digitalWrite(IN2, LOW);
+  digitalWrite(IN3, LOW);
+  digitalWrite(IN4, LOW);
+}
+
+void loop() {
+  if (SerialBT.available()) {
+    char command = SerialBT.read();
+
+    if (command == 'F') forward();
+    else if (command == 'B') backward();
+    else if (command == 'L') left();
+    else if (command == 'R') right();
+    else if (command == 'S') stopMotor();
+    else if (command == 'H') speedValue = 255;
+    else if (command == 'M') speedValue = 120;
+
+    ledcWrite(ENA, speedValue);
+    ledcWrite(ENB, speedValue);
+  }
+}
+
